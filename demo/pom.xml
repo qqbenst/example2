@@ -14,6 +14,7 @@
 
 
 
+
 	<modules>
 		<module>com.example.demo.dao</module>
 		<module>com.example.demo.daoImp</module>
@@ -70,6 +71,8 @@
 
 
 	<build>
+	
+		<defaultGoal>compile</defaultGoal>
 
         <plugins>
             <plugin>
@@ -88,7 +91,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.xiaobai.training.Application</mainClass><!-- 入口程序 -->
+                            <mainClass>com.example.demo.boot.ApplicationBoot</mainClass><!-- 入口程序 -->
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>

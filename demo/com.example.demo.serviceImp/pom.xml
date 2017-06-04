@@ -5,5 +5,12 @@
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>com.example.demo.boot</artifactId>
+  <artifactId>com.example.demo.serviceImp</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.example.demo</groupId>
+  		<artifactId>com.example.demo.service</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
